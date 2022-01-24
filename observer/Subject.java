@@ -10,7 +10,7 @@ public interface Subject {
      * @param observer
      */
     public void registerObserver(Observer observer);
-    
+     
     /**
      * Method that removes observers 
      * @param observer

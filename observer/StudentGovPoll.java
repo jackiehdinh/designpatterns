@@ -48,7 +48,7 @@ public class StudentGovPoll implements Subject {
             observer.update(votes);
         }
     }
-
+  
     /**
      * Adds a key (String president) to votes HashMap then notifies observers
      * @param president

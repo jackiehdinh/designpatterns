@@ -18,7 +18,7 @@ public class TallyDisplay implements Observer {
         this.poll = poll;
         poll.registerObserver(this);
     }
-
+ 
     /**
      * Updates the HashMap for the TallyDisplay and calls the display method
      * @param votes 

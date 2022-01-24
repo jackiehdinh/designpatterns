@@ -2,7 +2,7 @@ package observer;
 
 import java.util.HashMap;
     
-/**
+/** . 
  * An observer interface that forces all observers to update 
  * @author Kim Dinh
  */

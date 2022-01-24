@@ -6,7 +6,7 @@ package observer;
 public class SchoolDriver {
     private static final String CANDIDATE_1 = "Jim Roberts";
     private static final String CANDIDATE_2 = "Cindy Smith";
-
+  
     public SchoolDriver(){}
 
     /**
