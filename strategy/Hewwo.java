@@ -1,3 +1,5 @@
+package strategy;
+
 public class Hewwo {
     
     public static void main(String[] args) {
