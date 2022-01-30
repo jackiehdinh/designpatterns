@@ -1,12 +1,25 @@
 package decorator;
-
 import java.util.Random;
 
+/**
+ * Takes password and randomly inserts special characters 
+ * then returns the new password
+ * @author Kim Dinh
+ */
 public class SpecialChars extends PasswordDecorator {
+    /**
+     * Constructs passwordBeginning
+     * @param passwordBeginning
+     */
     public SpecialChars(Password passwordBeginning) {
         super(passwordBeginning);
     }
 
+    /**
+     * Has a 30% chance of inserting a special character into the password
+     * then returns the new password 
+     * @return password
+     */
     public String getPassword() {
         String password = this.passwordBeginning.getPassword();
         Random random = new Random();

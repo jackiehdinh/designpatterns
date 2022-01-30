@@ -1,12 +1,25 @@
 package decorator;
-
 import java.util.Random;
 
+/**
+ * Takes the password and randomly assigns each character 
+ * uppercase and lowercase then returns the new password
+ * @author Kim Dinh
+ */
 public class RandomCasing extends PasswordDecorator {
+    /**
+     * Constructs passwordBeginning 
+     * @param passwordBeginning
+     */
     public RandomCasing(Password passwordBeginning) {
         super(passwordBeginning);
     }
 
+    /**
+     * Uppercases and lowercases letters in password half the time
+     * before returning the new password
+     * @return password
+     */
     public String getPassword() {
         String password = this.passwordBeginning.toString();
         Random random = new Random();
