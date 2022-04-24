@@ -10,7 +10,7 @@ public class SongAdapter extends Song{
     }
 
     /**
-     * Returns title
+     * Returns title of song
      * @return title
      */
     public String getTitle() {
@@ -19,7 +19,7 @@ public class SongAdapter extends Song{
     }
 
     /**
-     * Returns album
+     * Returns album of song
      * @return album
      */
     public String getAlbum() {
